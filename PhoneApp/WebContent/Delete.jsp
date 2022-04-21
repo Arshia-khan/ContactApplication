@@ -25,7 +25,18 @@
 	%>
 	<jsp:include page="/Display.jsp"></jsp:include>
 	
-	<h1>COntact Deletion Failed</h1>
+	<h1>Error in Deleting Contact</h1>
 	<% } %>
+	 <br>
+     <br>
+     <br>
+     
+     
+     <br>
+      <div style="background-color: azure;font-size:large; text-align: center">
+     <footer>
+		Copy Rights Reserved &copy; 2022
+	</footer>
+	</div>
 </body>
 </html>

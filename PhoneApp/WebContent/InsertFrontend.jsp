@@ -10,11 +10,12 @@
 	<marquee behavior="scroll" direction="right" style="background-color: aqua"; srolldelay = 100 ; height = 100px >
     <h1> WELCOME TO PHONE APPLICATION!!!</h1>
     </marquee>
-    <br>
-     <br>
-      <br>
+   
       
        <div style="background-color: azure;font-size:medium;">
+      <br>
+     <br>
+     
      <nav>
       <a href = "./Index.jsp">HOME     \</a>
      <a href = "./InsertFrontend.jsp">   INSERT     \</a>
@@ -24,12 +25,13 @@
     
     
      </nav>
+
      </div>
   
      
       <div style="background-color: azure;font-size:x-large; text-align: center">
       <form action="Insert.jsp" method ="post">
-      <h2>Enter Details</h2>
+      <h2><u>Enter Details</u></h2>
       <br>
       
       <div class="inputbox">
@@ -61,6 +63,15 @@
             <input type="submit" value="submit">
           </div>
       </form>
+    
+      <div style="background-color: white;font-size:large; text-align: center">
+       <br>
+     <br>
+     <br>
+     <footer>
+		Copy Rights Reserved &copy; 2022
+	</footer>
+	</div>
      
 </body>
 </html>

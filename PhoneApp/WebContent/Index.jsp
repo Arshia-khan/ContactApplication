@@ -44,6 +44,18 @@
         
     </nav>
     
+      <div style="background-color: white;font-size:large; text-align: center">
+      
+     <br>
+     <br>
+     <br>
+
+
+     <footer>
+		Copy Rights Reserved &copy; 2022
+	</footer>
+	</div>
+    
  
    
      

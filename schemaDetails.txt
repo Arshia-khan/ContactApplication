@@ -1,0 +1,12 @@
+schema details
+
+Database name = contactfile
+Table = contact
+columns :
+Name
+Number
+Email
+DOB
+
+To access web application
+PhoneApp/index.jsp

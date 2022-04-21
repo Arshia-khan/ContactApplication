@@ -33,7 +33,8 @@
      
      
 	<% 
-		Phone c = new PhoneDataBaseOperations().SearchContact(request.getParameter("name"));
+		PhoneDataBaseOperations op = new PhoneDataBaseOperations();
+		Phone c = op.SearchContact(request.getParameter("name"));
 		
 		
 	
@@ -42,41 +43,56 @@
         
        
        <div style="background-color: azure;font-size:x-large; text-align: center">
+       <h2><u> Update Details</u></h2>
+       <br>
+       <br>
         <form action="Updatefrontend.jsp" method="post">
-         <h2><u>Update Details</u></h2>
-         <br>
-         <br>
-         
+        
          <div class="inputbox">
-          <span>Name</span>
-                <input type="text" required="required" name="name" >
+         <span>Enter Name</span>
+          <input type="text" value = "<%= c.getName() %>" readonly="readonly" required="required" name="name">
+		  </div>
+              
+               <br>
                
-              </div>
-              <br>
         <div class="inputbox">
-         <span>Number</span>
-                <input type="number"  required="required" name="number" >
-               
-              </div>
-           
+        <span>Enter Number</span>
+         <input type="number" value = "<%= c.getNumber() %>" required="required" name="number" >
+          </div>
+              
               <br>
+              
           <div class="inputbox">
            <span>Email</span>
-            <input type="text" required="required"  name="email">
+            <input type="text" required="required" value = "<%= c.getEmail() %>" name="email">
+             </div>
+             
+           <br>
            
-          </div>
-          <br>
           <div class="inputbox">
            <span>Date Of Birth</span>
-            <input type="date"  name="dob">
+            <input type="date" value="<%= c.getDate() %>" name="dob">
+         </div>
+         
+           <br>
            
-          </div>
-          <br>
           <div class="inputbox">
             <input type="submit" value="UPDATE">
           </div>
+          
         </form>
       </div>
       </div>
+       <br>
+     <br>
+     <br>
+     
+     
+     <br>
+      <div style="background-color: azure;font-size:large; text-align: center">
+     <footer>
+		Copy Rights Reserved &copy; 2022
+	</footer>
+	</div>
 </body>
 </html>

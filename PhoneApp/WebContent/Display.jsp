@@ -91,8 +91,8 @@
     	 date = p2.getDate();
     	%>
     	 <td><%=date%></td>
-    	 <td><a href = "./editfrontent.jsp">Edit</a></td>
-    	  <td><a href = "Delete.jsp">Delete</a></td>
+    	 <td><a href = "./editfrontent.jsp?name=<%=p2.getName()%>">Edit</a></td>
+    	  <td><a href = "./Delete.jsp?name=<%=p2.getName()%>">Delete</a></td>
     	  </tr>
     	 <%
     	 }

@@ -19,9 +19,21 @@
 		c.setEmail(request.getParameter("email"));
 		c.setDate(request.getParameter("dob"));
 		
-		new PhoneDataBaseOperations().updateContact(c);
+		PhoneDataBaseOperations op = new PhoneDataBaseOperations();
+		if(op.updateContact(c))
 	%>
 	<jsp:include page="/Display.jsp"></jsp:include>
+	 <br>
+     <br>
+     <br>
+     
+     
+     <br>
+      <div style="background-color: azure;font-size:large; text-align: center">
+     <footer>
+		Copy Rights Reserved &copy; 2022
+	</footer>
+	</div>
 	
 	
 	

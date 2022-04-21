@@ -29,6 +29,10 @@
     
     <a href = "./Logout.jsp">LOGOUT</a>
      </nav>
+      <br>
+     <br>
+     <br>
+     
      </div>
    
     
@@ -57,9 +61,15 @@
 		else
 		{
 		%>
-		<h2> error in inserting</h2>
+		<h2> Error in Inserting</h2>
 	<jsp:forward page="/InsertFrontend.jsp"></jsp:forward>
 		
 		<% } %>
+
+      <div style="background-color: azure;font-size:large; text-align: center">
+     <footer>
+		Copy Rights Reserved &copy; 2022
+	</footer>
+	</div>
 </body>
 </html>

@@ -49,6 +49,20 @@
       <br>
       <input type ="submit" value = "Submit">
       </form>
+      
+       <br>
+    
+    
+     
+     
+     
+      <div style="background-color: white;font-size:large; text-align: center">
+      <br>
+       <br>
+     <footer>
+		Copy Rights Reserved &copy; 2022
+	</footer>
+	</div>
      
 </body>
 </html>
